@@ -8,12 +8,10 @@
     "build": "vite build"
   },
   "dependencies": {
-    "phaser": "^3.80.1",
-    "tailwindcss": "^4.0.0-alpha.14"
+    "phaser": "^3.80.1"
   },
   "devDependencies": {
     "vite": "^5.2.8",
-    "vite-plugin-full-reload": "^1.1.0",
-    "@tailwindcss/vite": "^4.0.0-alpha.14"
+    "vite-plugin-full-reload": "^1.1.0"
   }
 }
