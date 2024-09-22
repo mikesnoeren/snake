@@ -6,8 +6,8 @@ const translations = {
     },
     game: {
         gameHintSingleplayer: 'Move using "W, A, S, D" keys.',
-        gameHintMultiplayerPlayer1: 'Player one, move using "W, A, S, D" keys.',
-        gameHintMultiplayerPlayer2: 'Player two, move using arrow keys',
+        gameHintMultiplayerPlayer1: 'Player one, move using arrow keys',
+        gameHintMultiplayerPlayer2: 'Player two, move using "W, A, S, D" keys.',
     },
     gameOver: {
         title: 'Game Over',
