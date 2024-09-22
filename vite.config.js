@@ -1,12 +1,10 @@
 import {defineConfig} from "vite";
-import tailwindcss from '@tailwindcss/vite'
 import fullReload from 'vite-plugin-full-reload'
 
 export default defineConfig(async () => ({
     root: "src/",
     clearScreen: false,
     plugins: [
-        tailwindcss(),
         fullReload(['src/**/*.html'])
     ],
     build: {

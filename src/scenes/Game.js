@@ -79,7 +79,7 @@ export class Game extends Scene {
                 this.add.text(
                     settings.game.gridSize / 2,
                     settings.game.gridSize - 10,
-                    translations.game.gameHintMultiplayerPlayer1,
+                    translations.game.gameHintMultiplayerPlayer2,
                     settings.fontStyle.text
                 ).setOrigin(0.5, 1)
             );
@@ -88,7 +88,7 @@ export class Game extends Scene {
                 this.add.text(
                     settings.game.gridSize / 2,
                     10,
-                    translations.game.gameHintMultiplayerPlayer2,
+                    translations.game.gameHintMultiplayerPlayer1,
                     settings.fontStyle.text
                 ).setOrigin(0.5, 0)
             );
