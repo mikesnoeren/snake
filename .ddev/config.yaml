@@ -19,6 +19,7 @@ use_dns_when_possible: true
 timezone: Europe/Amsterdam
 composer_version: "2"
 web_environment: []
+nodejs_version: "22"
 corepack_enable: false
 web_extra_exposed_ports:
     - name: vite
