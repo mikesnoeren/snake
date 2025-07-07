@@ -4,16 +4,13 @@ This repository serves as a starting point for developing applications using Pha
 
 In this template, you'll find a working version of the classic Snake game. Please note that some code may be opinionated, such as the UI being done in HTML instead of being done directly in Phaser. This approach allows for greater flexibility and customization, but feel free to adapt it to your preferred method.
 
-## Prerequisites
-- DDEV
-
 ## Getting Started
 
 1) **Create a new repository from this template** \
    Click on the green "Use this template" button. This will create a new repository in your GitHub account with the same files and structure as this template.
 
 2) **Start development** \
-   Run `ddev start` in your local repository to start the development environment. This command will automatically install any dependencies, start a Vite dev server, and open your browser to the correct URL. The server will automatically reload the page when you make changes to the source code.
+   Run `npm i && npm run dev` in your local repository to start the development environment. This command will install any dependencies, start a Vite dev server. The vite server will automatically reload the page when you make changes to the source code.
 
 ## Building the Project
 To build the project for web deployment, run `npm run build`. This command compiles the project into static files for production. The output will be in the `./dist` directory, ready to be uploaded to any web server.
